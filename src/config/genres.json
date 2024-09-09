@@ -1,0 +1,97 @@
+[
+  {
+    "value": 28,
+    "name": "Acción",
+    "url": "accion"
+  },
+  {
+    "value": 12,
+    "name": "Aventura",
+    "url": "aventura"
+  },
+  {
+    "value": 16,
+    "name": "Animación",
+    "url": "animacion"
+  },
+  {
+    "value": 35,
+    "name": "Comedia",
+    "url": "comedia"
+  },
+  {
+    "value": 80,
+    "name": "Crimen",
+    "url": "crimen"
+  },
+  {
+    "value": 99,
+    "name": "Documental",
+    "url": "documental"
+  },
+  {
+    "value": 18,
+    "name": "Drama",
+    "url": "drama"
+  },
+  {
+    "value": 10751,
+    "name": "Familia",
+    "url": "familia"
+  },
+  {
+    "value": 14,
+    "name": "Fantasía",
+    "url": "fantasia"
+  },
+  {
+    "value": 36,
+    "name": "Historia",
+    "url": "historia"
+  },
+  {
+    "value": 27,
+    "name": "Terror",
+    "url": "terror"
+  },
+  {
+    "value": 10402,
+    "name": "Música",
+    "url": "musica"
+  },
+  {
+    "value": 9648,
+    "name": "Misterio",
+    "url": "misterio"
+  },
+  {
+    "value": 10749,
+    "name": "Romance",
+    "url": "romance"
+  },
+  {
+    "value": 878,
+    "name": "Ciencia ficción",
+    "url": "ciencia-ficcion"
+  },
+  {
+    "value": 10770,
+    "name": "Película de TV",
+    "url": "pelicula-de-tv"
+  },
+  {
+    "value": 53,
+    "name": "Suspenso",
+    "url": "suspenso"
+  },
+  {
+    "value": 10752,
+    "name": "Bélica",
+    "url": "belica"
+  },
+  {
+    "value": 37,
+    "name": "Western",
+    "url": "western"
+  }
+]

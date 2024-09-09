@@ -1,0 +1,47 @@
+.movie-details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: min-content 1fr;
+  grid-template-areas:
+    'movie-cover movie-info'
+    'movie-trailer movie-trailer'
+  ;
+  gap: 10px
+}
+
+.movie-details-cover {
+  width: 100%;
+  grid-area: movie-cover;
+
+  >img {
+    display: block;
+    object-fit: contain;
+    border-radius: 5px;
+    width: 100%;
+  }
+}
+
+.movie-details-info {
+  width: 100%;
+  grid-area: movie-info;
+
+  &__title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  &__originTitle {
+    font-size: 1.2em;
+  }
+
+  &__overview {
+    margin-top: 5px;
+    font-size: 1em;
+  }
+}
+
+.movie-details-trailer {
+  grid-area: movie-trailer;
+  width: 100%;
+  aspect-ratio: 16/9;
+}

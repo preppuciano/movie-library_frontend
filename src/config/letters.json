@@ -1,0 +1,137 @@
+[
+  {
+    "value": "#",
+    "name": "#",
+    "url": "0-9"
+  },
+  {
+    "value": "a",
+    "name": "A",
+    "url": "a"
+  },
+  {
+    "value": "b",
+    "name": "B",
+    "url": "b"
+  },
+  {
+    "value": "c",
+    "name": "C",
+    "url": "c"
+  },
+  {
+    "value": "d",
+    "name": "D",
+    "url": "d"
+  },
+  {
+    "value": "e",
+    "name": "E",
+    "url": "e"
+  },
+  {
+    "value": "f",
+    "name": "F",
+    "url": "f"
+  },
+  {
+    "value": "g",
+    "name": "G",
+    "url": "g"
+  },
+  {
+    "value": "h",
+    "name": "H",
+    "url": "h"
+  },
+  {
+    "value": "i",
+    "name": "I",
+    "url": "i"
+  },
+  {
+    "value": "j",
+    "name": "J",
+    "url": "j"
+  },
+  {
+    "value": "k",
+    "name": "K",
+    "url": "k"
+  },
+  {
+    "value": "l",
+    "name": "L",
+    "url": "l"
+  },
+  {
+    "value": "m",
+    "name": "M",
+    "url": "m"
+  },
+  {
+    "value": "n",
+    "name": "N",
+    "url": "n"
+  },
+  {
+    "value": "o",
+    "name": "O",
+    "url": "o"
+  },
+  {
+    "value": "p",
+    "name": "P",
+    "url": "p"
+  },
+  {
+    "value": "q",
+    "name": "Q",
+    "url": "q"
+  },
+  {
+    "value": "r",
+    "name": "R",
+    "url": "r"
+  },
+  {
+    "value": "s",
+    "name": "S",
+    "url": "s"
+  },
+  {
+    "value": "t",
+    "name": "T",
+    "url": "t"
+  },
+  {
+    "value": "u",
+    "name": "U",
+    "url": "u"
+  },
+  {
+    "value": "v",
+    "name": "V",
+    "url": "v"
+  },
+  {
+    "value": "w",
+    "name": "W",
+    "url": "w"
+  },
+  {
+    "value": "x",
+    "name": "X",
+    "url": "x"
+  },
+  {
+    "value": "y",
+    "name": "Y",
+    "url": "y"
+  },
+  {
+    "value": "z",
+    "name": "Z",
+    "url": "z"
+  }
+]

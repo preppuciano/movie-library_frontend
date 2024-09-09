@@ -1,0 +1,25 @@
+@import './global';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit; /* Hereda el color del elemento padre */
+  text-decoration: none; /* Quita el subrayado */
+  background: none; /* Quita el fondo si se ha aplicado */
+  border: none; /* Quita el borde si se ha aplicado */
+}
+
+body {
+  font-family: $fontFamily;
+  background-color: $backgroundColor;
+  background-image: url('../assets/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: $fontColor;
+}
+

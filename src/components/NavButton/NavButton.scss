@@ -1,0 +1,24 @@
+@mixin nav-button-style($color, $borderColor, $backgroundColor, $backgroundColorHover) {
+  color: $color;
+  background-color: $backgroundColor;
+  outline: 2px solid $borderColor;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $backgroundColorHover;
+  }
+}
+
+.nav-button {
+  all: unset;
+  border-radius: 5px;
+  padding: 5px;
+
+  &--primary {
+    @include nav-button-style($onPrimaryColor, $primaryColor, none, $primaryColor);
+  }
+
+  &--primary--active {
+    @include nav-button-style($onPrimaryColor, $primaryColor, $primaryColor, lighten($primaryColor, 5%));
+  }
+}

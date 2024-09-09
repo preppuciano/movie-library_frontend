@@ -1,0 +1,11 @@
+.main-content {
+  margin: 10px;
+  grid-area: main-content;
+  height: min-content;
+
+  &--background {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: $darkStorm;
+  }
+}

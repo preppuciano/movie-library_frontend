@@ -1,0 +1,34 @@
+.paginator {
+  background-color: $darkStorm;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+
+  gap: 5px &__text {}
+
+  &__numbers {
+    display: flex;
+    gap: 5px;
+  }
+}
+
+.page-number-button {
+  padding: 0px 10px;
+  text-align: center;
+  background-color: $oceanBlue;
+  color: $onOceanBlue;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($color: $oceanBlue, $amount: 5%);
+  }
+
+  &.active {
+    background-color: $primaryColor;
+    color: $onPrimaryColor;
+    cursor: default;
+  }
+}

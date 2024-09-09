@@ -1,0 +1,28 @@
+.menu {
+  background-color: $darkStorm;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.menu-head {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 2px solid $primaryColor;
+  margin-bottom: 5px;
+}
+
+.menu-body {
+  display: flex;
+  gap: 5px;
+
+  &--wrap {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  &--nowrap {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}

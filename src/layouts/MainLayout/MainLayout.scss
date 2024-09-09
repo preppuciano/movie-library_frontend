@@ -1,0 +1,43 @@
+.main-layout {
+  width: 100%;
+  margin: 10px;
+  max-width: 1400px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 300px;
+  grid-auto-columns: auto;
+  grid-template-rows: none;
+  grid-auto-rows: auto;
+  grid-template-areas:
+    'main-content sidebar'
+  ;
+
+  // XX-Large devices (larger desktops)
+  // No media query since the xxl breakpoint has no upper bound on its width
+
+  // X-Large devices (large desktops, less than 1400px)
+  @media (max-width: 1399.98px) {
+    grid-template-columns: 1fr 280px;
+  }
+
+  // Large devices (desktops, less than 1200px)
+  @media (max-width: 1199.98px) {
+    grid-template-columns: 1fr 260px;
+  }
+
+  // Medium devices (tablets, less than 992px)
+  @media (max-width: 991.98px) {
+    grid-template-columns: 1fr 240px;
+  }
+
+  // Small devices (landscape phones, less than 768px)
+  @media (max-width: 767.98px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'main-content'
+    ;
+  }
+
+  // X-Small devices (portrait phones, less than 576px)
+  @media (max-width: 575.98px) {}
+}

@@ -1,0 +1,30 @@
+.langs-badge {
+  background-color: transparentize($color: $darkStorm, $amount: 0.1);
+  color: $onDarkStorm;
+  border-radius: 5px;
+  padding: 0px 4px;
+  display: flex;
+  gap: 5px;
+  height: 1.2em;
+}
+
+.lang-badge {
+  font-size: 0.9em;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+
+  &__flag {
+    margin-right: 2px;
+
+    >img {
+      object-fit: fill;
+      width: 0.9em;
+      height: 0.9em;
+    }
+  }
+
+  &__text {
+    font-size: 0.9em;
+  }
+}

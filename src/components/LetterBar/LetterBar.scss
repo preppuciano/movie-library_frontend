@@ -1,0 +1,27 @@
+.letter-bar {
+  background-color: $darkStorm;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  gap: 5px
+}
+
+.letter-button {
+  flex-grow: 1;
+  text-align: center;
+  background-color: $oceanBlue;
+  color: $onOceanBlue;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($color: $oceanBlue, $amount: 5%);
+  }
+
+  &.active {
+    background-color: $primaryColor;
+    color: $onPrimaryColor;
+    cursor: default;
+  }
+}

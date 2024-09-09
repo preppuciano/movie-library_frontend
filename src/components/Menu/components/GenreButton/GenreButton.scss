@@ -1,0 +1,24 @@
+.genre-button {
+  background-color: $oceanBlue;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  cursor: pointer;
+
+  &:hover{
+    background-color: lighten($color: $oceanBlue, $amount: 5%);
+  }
+
+  &__genre {
+    font-size: $onOceanBlue;
+  }
+
+  &__quantity {
+    background-color: $primaryColor;
+    border-radius: 5px;
+    padding: 0px 5px;
+    font-size: 0.9em;
+  }
+}

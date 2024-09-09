@@ -1,0 +1,12 @@
+.year-button {
+  background-color: $oceanBlue;
+  border-radius: 5px;
+  padding: 0px 5px;
+  font-size: 0.9em;
+  color: $onOceanBlue;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($color: $oceanBlue, $amount: 5%);
+  }
+}

@@ -1,0 +1,24 @@
+@mixin btn-style($color, $borderColor, $backgroundColor, $backgroundColorHover) {
+  color: $color;
+  background-color: $backgroundColor;
+  border: 2px solid $borderColor;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $backgroundColorHover;
+  }
+}
+
+.btn {
+  all: unset;
+  border-radius: 5px;
+  padding: 5px;
+
+  &--primary--contained {
+    @include btn-style($onPrimaryColor, none, $primaryColor, lighten($primaryColor, 5%));
+  }
+
+  &--primary--outlined {
+    @include btn-style($onPrimaryColor, $primaryColor, none, $primaryColor);
+  }
+}
