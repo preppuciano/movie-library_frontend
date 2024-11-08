@@ -1,3 +1,7 @@
+# custom
+public/images/movies/*
+!public/images/movies/.gitkeep
+
 # Logs
 logs
 *.log
