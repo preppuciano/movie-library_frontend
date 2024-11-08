@@ -15,7 +15,9 @@ export default function useFetch<T>(fetchFunction: () => Promise<T>): FetchState
 
   async function fetchData(): Promise<void> {
     try {
-      await new Promise((resolve, _reject) => setTimeout(resolve, 2000));
+      if (import.meta.env.MODE == 'development') {
+        await new Promise((resolve, _reject) => setTimeout(resolve, 2000));
+      }
       const result = await fetchFunction();
 
       setState({ data: result, error: null, isLoading: false })

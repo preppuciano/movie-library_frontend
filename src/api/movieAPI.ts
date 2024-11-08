@@ -1,9 +1,9 @@
 import { PaginationResponseInterface } from "../interfaces/PaginationResponse";
 import MovieModel from "../models/movieModel";
-import { apiVersion, basePath } from "./config";
+import { apiUrl } from "./config";
 
 export async function getMoviesQuery({ page, limit, genre, year, letter }: { page: number, limit: number, genre?: number, year?: number, letter?: string | null }): Promise<PaginationResponseInterface<MovieModel>> {
-
+  console.log(`${apiUrl}/movies}`);
   const params: any = {};
 
   if (page) params['page'] = page;
@@ -14,7 +14,7 @@ export async function getMoviesQuery({ page, limit, genre, year, letter }: { pag
 
   const queryParams = new URLSearchParams(params).toString();
 
-  const response = await fetch(`${basePath}/api/${apiVersion}/movies?${queryParams}`);
+  const response = await fetch(`${apiUrl}/movies?${queryParams}`);
   if (!response.ok) {
     const result = await response.json();
     throw new Error(result.message);
@@ -24,7 +24,7 @@ export async function getMoviesQuery({ page, limit, genre, year, letter }: { pag
 }
 
 export async function getMovieById(id: string): Promise<MovieModel> {
-  const response = await fetch(`${basePath}/api/${apiVersion}/movies/${id}`);
+  const response = await fetch(`${apiUrl}/movies/${id}`);
   if (!response.ok) {
     const result = await response.json();
     throw new Error(result.message);

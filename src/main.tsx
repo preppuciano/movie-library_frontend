@@ -15,7 +15,6 @@ import MoviesPage from './pages/MoviesPage';
 import MoviesGenrePage from './pages/MoviesGenrePage';
 import MoviesYearPage from './pages/MoviesYearPage';
 
-
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
