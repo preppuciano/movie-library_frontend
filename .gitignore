@@ -2,6 +2,8 @@
 public/images/movies/*
 !public/images/movies/.gitkeep
 
+.env
+
 # Logs
 logs
 *.log
